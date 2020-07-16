@@ -1,54 +1,57 @@
 #title{
   color: #fff;
-}
-.bg-img{
-  background-image: url(images/saplingpg1.jpg);
-  height : 100%;
-  position: absolute;
-}
-.navbar{
-  padding: 3% 10%;
-  position:relative;
+  background-color: #24a19c;
 }
 
-.headings{
-font-family: serif;
-font-weight: bolder;
-position: absolute;
-padding: 3% 10%;
-}
-.heading1{
-  font-size: 70px;
-}
-#services{
+.navbar{
   padding: 3% 10%;
-  position: relative;
-  top: 600Px;
+  /* position:relative; */
+}
+
+.heading1{
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 70px;
+  padding-left: 20%;
+  padding-top: 10%
+}
+.heading2{
+  font-family: serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-left: 20%;
+}
+.sapimg{
   text-align: center;
+  padding: 3% 5%;
+  width: 100%;
 }
 .dotline{
   width: 5%;
-
-
+padding : 2% 1%;
 }
-.servhead{
-  font-family: serif;
-  font-weight: bolder;
-  padding : 3% 3%;
+
+#services{
+  font-family: sans-serif;
   color: #888888;
+  text-align: center;
+  padding: 3% 20%;
 }
+
 .row{
-  position: relative;
+  padding: 3% 3%;
 }
 .servimg{
-  width: 100%;
+  width: 70%;
+  border-radius: 90%;
 }
+
 .ltext{
   font-family: serif;
   font-weight: bolder;
   text-align: left;
   color: #888888;
-  padding-top: 15%
+  padding-top: 5%
 }
 .ptext{
   text-align: left;
@@ -60,24 +63,37 @@ padding: 3% 10%;
   font-weight: bolder;
   text-align: left;
   color: #888888;
-  padding-top: 20%
+  padding-top: 5%;
 }
+/*
+.servhead{
+  font-family: serif;
+  font-weight: bolder;
+  padding : 3% 3%;
+  color: #888888;
+}
+
+
+
+
+
 .col-sm-6{
   padding : 3% 3%;
-}
+} */
+
 #contact{
-  padding: 10% 10%;
-  position: relative;
-  top: 600Px;
+  padding: 1% 5%;
   text-align: center;
-  background-color: #ade498;
+  background-color: #24a19c;
 }
+
+
 .tabs{
-  padding : 5% 5%;
-}
+  color: black;
+  }
 .copyright{
   font-family: serif;
   text-align: center;
   font-size: 11px;
-  padding: 5% 10%
-}
+  padding-top: 2%;
+  }
